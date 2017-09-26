@@ -1,0 +1,1 @@
+{"app":{"name":"","description":"","tags":"","id":"ce58f36e.b3c5e"},"packages":[{"type":"tab","id":"5b611fdd.6b1e6","name":"new package","risks":"","benefits":"","purpose":"","install":"optional","datastores":[{"id":"87d05654.0736e8","name":"light sensor","type":"light"}]}],"allowed-combinations":[]}
