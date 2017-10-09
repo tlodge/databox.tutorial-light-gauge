@@ -1,1 +1,0 @@
-{"app":{"name":"lightgauge","description":"testing light gauge","tags":"light,test","id":"e1dfa5aa.141688"},"packages":[{"type":"tab","id":"5b611fdd.6b1e6","name":"new package","risks":"","benefits":"test","purpose":"test","install":"optional","datastores":[{"id":"87d05654.0736e8","name":"light sensor","type":"light"}]}],"allowed-combinations":[]}
