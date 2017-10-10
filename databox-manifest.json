@@ -1,1 +1,44 @@
-{"app":{"name":"lightgauge","description":"testing light gauge","tags":"light,test","id":"73765aa8.f174f4"},"packages":[{"type":"tab","id":"5b611fdd.6b1e6","name":"new package","risks":"","benefits":"test","purpose":"test","install":"optional","datastores":[{"id":"87d05654.0736e8","name":"light sensor","type":"light"}]}],"allowed-combinations":[]}
+{
+    "manifest-version": 1,
+    "name": "tlodge-lightgauge",
+    "version": "0.1.0",
+    "description": "testing light gauge",
+    "author": "tlodge",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "light",
+        "test"
+    ],
+    "homepage": "https://github.com/tlodge/tlodge-lightgauge",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tlodge/tlodge-lightgauge.git"
+    },
+    "packages": [
+        {
+            "id": "5b611fdd.6b1e6",
+            "name": "new package",
+            "purpose": "test",
+            "required": false,
+            "datastores": [
+                "87d05654.0736e8"
+            ],
+            "benefits": "test"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "light",
+            "required": true,
+            "name": "light sensor",
+            "clientid": "87d05654.0736e8",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
