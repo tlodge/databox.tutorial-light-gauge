@@ -10,10 +10,10 @@
         "light",
         "test"
     ],
-    "homepage": "https://github.com/tlodge/tlodge-lightgauge",
+    "homepage": "https://github.com/tlodge/databox.tutorial-light-gauge",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tlodge/tlodge-lightgauge.git"
+        "url": "git+https://github.com/tlodge/databox.tutorial-light-gauge.git"
     },
     "packages": [
         {
