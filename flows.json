@@ -9,7 +9,7 @@
         "type": "uibuilder",
         "z": "5b611fdd.6b1e6",
         "name": "",
-        "templates": {
+        "templatesById": {
             "e77fc9df.a29318": {
                 "id": "e77fc9df.a29318",
                 "label": "gauge",
@@ -293,6 +293,10 @@
                 }
             }
         },
+        "templates": [
+            "e77fc9df.a29318",
+            "eb05f5fb.9a8688"
+        ],
         "mappings": [
             {
                 "mappingId": "7cf33f5.35e4dc",
